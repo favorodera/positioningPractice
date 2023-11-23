@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: solid 1px;
+    border-color: black;
+
+}
+
+  body{
+    height: 100vh;
+  }
+
+  .rectangle{
+    width: 500px;
+    height: 500px;
+    margin: 15% auto;
+    position: relative;
+  }
+
+  .bigCircle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 150px;
+    background-color: white;
+  }
+
+  .biggerCircle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: -80px;
+    background-color: white;
+  }
+
+  .biggestCircle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: -90px;
+    left: -100px;
+    background-color: white;
+  }
+  
+  
